@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("📝 𝗪𝗮𝗹𝗸𝗲𝗿𝗚𝗣𝗧\n━━━━━━━━━━━━━━\n\nHello! How can I assist you today.💬");
+        await message.reply("🥀chris ae\n━━━━━━━━━━━━━━\n\nHello! How can I assist you today.💬");
         return;
       }
 
@@ -40,11 +40,11 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: 📝 𝗪𝗮𝗹𝗸𝗲𝗿𝗚𝗣𝗧 :`
+    await message.reply({ body:🥀chrisae❄️  :`
 ━━━━━━━━━━━━━━━━        
 ${answer}
 ━━━━━━━━━━━━━━━━
-🟢 𝘔𝘦𝘵𝘰𝘶𝘴𝘩𝘦𝘭𝘢 𝘸𝘢𝘭𝘬𝘦𝘳 ⚪ `,
+🥀 Chris stars ❄️`,
 });
 
    } catch (error) {
